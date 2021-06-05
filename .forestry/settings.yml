@@ -23,8 +23,11 @@ sections:
 - type: directory
   path: content/portfolio
   label: Portfolio
-  create: none
+  create: all
   match: "*"
+  new_doc_ext: ".md"
+  templates:
+  - post
 - type: directory
   path: content/about
   label: About
